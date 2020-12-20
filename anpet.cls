@@ -298,6 +298,6 @@
    \usebibmacro{byeditor}}
   {}{}
   
-
-
-
+% Todas as citações devem estar entre parênteses
+\renewcommand{\cite}{\parencite}
+\renewcommand{\cites}{\parencites}
